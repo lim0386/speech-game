@@ -52,8 +52,9 @@
 		else if(mostrecentword.indexOf("오른쪽")!==-1) { dx=1;dy=0; }
 		else if(mostrecentword.indexOf("위쪽")!==-1) { dx=0;dy=-1; }
 		else if(mostrecentword.indexOf("아래쪽")!==-1) { dx=0;dy=1; }
-		else if(mostrecentword.indexOf("리셋")!==-1) { background(255); }
 		else if(mostrecentword.indexOf("멈춤")!==-1) { dx=0;dy=0; }
+		else if(mostrecentword.indexOf("리셋")!==-1) { background(255); }
+		// else if(mostrecentword.indexOf("멈춤")!==-1) { dx=0;dy=0; }
 		console.log(mostrecentword);
 	}
 
