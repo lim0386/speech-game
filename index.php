@@ -54,8 +54,8 @@
 		else if(mostrecentword.indexOf("아래쪽")!==-1) { dx=0;dy=1; }
 		else if(mostrecentword.indexOf("멈춰")!==-1) { dx=0;dy=0; }
 		else if(mostrecentword.indexOf("작동법")!==-1) { text("위쪽, 아래쪽, 왼쪽, 오른쪽, 멈춰, 리셋, 작동법", 20, 20); }
-    else if(mostrecentword.indexOf("samba")!==-1) { window.open("https://youtu.be/kk4uddaHdDE") }
-		else if(mostrecentword.indexOf("쌈바")!==-1) { window.open("https://youtu.be/kk4uddaHdDE") }
+    else if(mostrecentword.indexOf("samba")!==-1) { window.open("https://youtu.be/kk4uddaHdDE?t=1m18s") }
+		else if(mostrecentword.indexOf("쌈바")!==-1) { window.open("https://youtu.be/kk4uddaHdDE?t=1m18s") }
 		else if(mostrecentword.indexOf("리셋")!==-1) { background(255); }
 		// else if(mostrecentword.indexOf("멈춤")!==-1) { dx=0;dy=0; }
 		console.log(mostrecentword);
