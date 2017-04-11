@@ -26,7 +26,7 @@
 		// instructions:
 		textSize(20);
 		textAlign(LEFT);
-		text("draw: up, down, left, right, clear", 20, 20);
+		text("위쪽, 아래쪽, 왼쪽, 오른쪽, 리셋", 20, 20);
 
 		myRec.onResult = parseResult; // recognition callback
 		myRec.start(); // start engine
@@ -53,6 +53,7 @@
 		else if(mostrecentword.indexOf("위쪽")!==-1) { dx=0;dy=-1; }
 		else if(mostrecentword.indexOf("아래쪽")!==-1) { dx=0;dy=1; }
 		else if(mostrecentword.indexOf("리셋")!==-1) { background(255); }
+		else if(mostrecentword.indexOf("멈춤")!==-1) { dx=0;dy=0; }
 		console.log(mostrecentword);
 	}
 
